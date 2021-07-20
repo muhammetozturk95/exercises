@@ -38,7 +38,7 @@ Sizler için HTML yapısını ve basit CSS'i hazırladık. Sizlerden istediğimi
 
 - Kod yazarken yorum satırları kullanmaya özen gösteriniz.
 
-![Google Homepage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev2/figures/googlehomepage.png)
+![Google Homepage](file:///C:/Users/inanl/OneDrive/Documents/google-homepage/figures/google-homepage.png)
 
 Bu ödev ile birlikte CSS bölümünü tamamladınız, tebrik ederiz!
 
