@@ -1,115 +1,347 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ürünlerimiz | Hurdy&Gurdy</title>
-    <link rel="stylesheet" href="hurdygurdy.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Benne&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Navbar - Start -->
-    <header>
-        
-        <nav>
-            <h1>HURDY&GURDY</h1>
-            <a href="index.html">
-                Ana Sayfa
-            </a>
-            <span>|</span>
-            <a href="products.html">
-                Ürünlerimiz
-            </a>
-            <span>|</span>
-            <a href="about-us.html">
-                Hakkımızda
-            </a>
-            <span>|</span>
-            <a href="contact.html">
-                İletişim
-            </a>
-            <br><br>
-        </nav>
-    </header>
-    <hr>
+    <title>Ürünler | Hurdy&Gurdy</title>
 
-<!-- Navbar - End -->
-
-<!-- Article - Start -->
-<section>
-    <article class="tameimpala-photos">
-        <h1>TAME IMPALA</h1>
-        <a href="https://www.trendyol.com/hurdygurdy/tame-impala-currents-baskili-t-shirt-p-87947098?boutiqueId=573000&merchantId=205008&filterOverPriceListings=false"><img src="https://cdn.dsmcdn.com/ty127/product/media/images/20210608/0/96897151/147499539/1/1_org.jpg" alt="currents"></a>
-        
+    <style>
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;
          
-        
+      }
 
-        <a href="https://www.trendyol.com/hurdygurdy/tame-impala-the-slow-rush-baskili-t-shirt-p-87947026?boutiqueId=61&merchantId=205008&filterOverPriceListings=false"><img src="https://cdn.dsmcdn.com/ty126/product/media/images/20210607/17/96804657/147499775/1/1_org.jpg" alt="the slow rush"></a>
 
-        
-        
-        
+    header > ul > li {
+      font-size: 20px;
+    }
 
-        <a href="https://www.trendyol.com/hurdygurdy/unisex-siyah-tame-impala-lonerism-baskili-t-shirt-p-99760609?boutiqueId=573578&merchantId=205008&filterOverPriceListings=false"><img src="https://cdn.dsmcdn.com/ty106/product/media/images/20210420/17/81659577/165788500/1/1_org.jpg" alt="lonerism"></a> <br> 
-        
-        
-        
+    .nav {
+      flex-grow: 1;
+      
+    }
 
-        <hr>
+    .jumbotron {
+      /* background-color: #FBAB7E;
+      background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); */
+      /* background: rgb(124,135,107);
+background: linear-gradient(100deg, rgba(124,135,107,1) 0%, rgba(255,183,0,1) 86%); */
 
-    </article>
+/* background: rgb(124,135,107);
+background: linear-gradient(100deg, rgba(124,135,107,1) 24%, rgba(51,167,109,0.7094188017003676) 100%); */
+/* background: rgb(107,116,135);
+background: linear-gradient(100deg, rgba(107,116,135,1) 2%, rgba(32,46,97,0.7094188017003676) 91%); */
+background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+.card-header > span {
+  display: flex;
+  justify-content: center;
+}
+
+#bg-footer {
+    /* background: rgb(107,116,135);
+background: linear-gradient(100deg, rgba(107,116,135,1) 2%, rgba(32,46,97,0.7094188017003676) 91%); */
+background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+}
+
+ /* .card > a {
+    display: block;
+    margin: auto;
+} */
+
+.price {
+    text-align: center;
+    font-family: 'STIX Two Text', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: midnightblue;
+    
+}
+
+.add-cart {
+    text-align: center;
+}
+
+.card-deck {
+    flex-wrap: wrap;
+}
+
+.card-body {
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+    </style>
+
+  </head>
+  <body>
+    
+    <header class="bg-light">
+      <div class="logo">
+        <img src="/image/logo.png" alt="logo">
+      </div>
+    
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active text-secondary" href="/index.html">
+            <i class='bx bx-home mr-2'></i>Anasayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/collections.html">
+            <i class='bx bx-collection mr-2'></i>Koleksiyonlar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/products.html">
+            <i class='bx bxs-factory mr-2'></i>Ürünler</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/about-us.html">
+            <i class='bx bx-info-circle mr-2'></i>Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/contact.html">
+            <i class='bx bxs-contact mr-2'></i>İletişim</a>
+        </li>
+        
+      </ul>
+    </header>
+
+    <div class="jumbotron text-white">
+      <h1 class="display-4">Ürünlerimiz</h1>
+      <p class="lead font-weight-bold">Özgün tasarımlar bu sayfada!</p>
+      <hr class="my-4">
+      <!-- <p>Göz atmak için:</p> -->
+      <a class="btn btn-light btn-lg" href="#products-btn" role="button">Ürünlere Git!</a>
+    </div>
+
+    <div class="container justify-content-center" id="products-btn">
+        <!-- tame impala start -->
+      <div class="row mb-4 justify-content-center">
+        <div class="card-deck">
+          <div class="card">
+            <a href="https://www.trendyol.com/hurdygurdy/tame-impala-currents-baskili-t-shirt-p-87947098?boutiqueId=573000&merchantId=205008&filterOverPriceListings=false"><img class="card-img-top" src="https://cdn.dsmcdn.com/ty127/product/media/images/20210608/0/96897151/147499539/1/1_org.jpg" alt="currents">
+            </a>
+            <div class="card-body text-center">
+              <span class="card-title ">Tame Impala-Currents</span>
+              <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              <div class="price">0$</div>
+              
+              <div class="add-cart mt-3">
+              <button type="button" class="btn btn-secondary">
+                Sepete ekle!
+                <i class='bx bxs-cart-add bx-xs'></i></button>
+            </div>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://www.trendyol.com/hurdygurdy/tame-impala-the-slow-rush-baskili-t-shirt-p-87947026?boutiqueId=61&merchantId=205008&filterOverPriceListings=false"><img class="card-img-top" src="https://cdn.dsmcdn.com/ty126/product/media/images/20210607/17/96804657/147499775/1/1_org.jpg" alt="the slow rush">
+            </a>
+            <div class="card-body text-center" >
+              <span class="card-title ">Tame Impala-Inner Speaker </span>
+              <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+              <div class="price">0$</div>
+              
+              <div class="add-cart mt-3">
+              <button type="button" class="btn btn-secondary">
+                Sepete ekle!
+                <i class='bx bxs-cart-add bx-xs'></i></button>
+            </div>
+              
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://www.trendyol.com/hurdygurdy/unisex-siyah-tame-impala-lonerism-baskili-t-shirt-p-99760609?boutiqueId=573578&merchantId=205008&filterOverPriceListings=false"><img class="card-img-top" src="https://cdn.dsmcdn.com/ty106/product/media/images/20210420/17/81659577/165788500/1/1_org.jpg" alt="lonerism">
+            </a>
+            <div class="card-body text-center">
+              <span class="card-title ">Tame Impala-Lonerism</span>
+              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+              <div class="price">0$</div>
+              
+              <div class="add-cart mt-3">
+              <button type="button" class="btn btn-secondary">
+                Sepete ekle!
+                <i class='bx bxs-cart-add bx-xs'></i></button>
+            </div>
+
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- tame impala end -->
+
+      <!-- ünlü tablolar start -->
+      <div class="row mb-4 justify-content-center">
+      <div class="card-deck">
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <a href="https://www.trendyol.com/hurdygurdy/guernica-t-shirt-pablo-picasso-unlu-tablolar-t-shirt-koleksiyonu-p-83253254?boutiqueId=61&merchantId=205008&filterOverPriceListings=false"><img class="card-img-top" src="https://cdn.dsmcdn.com/ty69/product/media/images/20210214/23/62548426/140308687/1/1_org.jpg" alt="guernica"></a>
+
+          <div class="card-body text-center">
+            <span class="card-title ">Pablo Picasso-Guernica</span>
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+            <div class="price">0$</div>
+              
+              <div class="add-cart mt-3">
+              <button type="button" class="btn btn-secondary">
+                Sepete ekle!
+                <i class='bx bxs-cart-add bx-xs'></i></button>
+            </div>
+          </div>
+          
+        </div>
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <a href="https://www.trendyol.com/hurdygurdy/unisex-siyah-american-gothic-tshirt-p-82845758?boutiqueId=573000&merchantId=205008&filterOverPriceListings=false"><img class="card-img-top" src="https://cdn.dsmcdn.com/ty126/product/media/images/20210609/0/97636937/139787059/1/1_org.jpg" alt="american gothic"></a>
+          <div class="card-body text-center">
+            <span class="card-title ">Grant Wood-American Gothic</span>
+            <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+            <div class="price">0$</div>
+              
+            <div class="add-cart mt-3">
+            <button type="button" class="btn btn-secondary">
+              Sepete ekle!
+              <i class='bx bxs-cart-add bx-xs'></i></button>
+          </div>
+          </div>
+          
+        </div>
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <a href="https://www.trendyol.com/hurdygurdy/the-kiss-gustav-klimt-opucuk-tablo-baskili-t-shirt-unlu-tablolar-t-shirt-koleksiyonu-p-88282915?boutiqueId=573000&merchantId=205008&filterOverPriceListings=false"><img class="card-img-top" src="https://cdn.dsmcdn.com/ty78/product/media/images/20210303/2/68104257/147474870/1/1_org.jpg" alt="the kiss"></a>
+
+          <div class="card-body text-center">
+            <span class="card-title ">Gustav Klimt-The Kiss</span>
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+            <div class="price">0$</div>
+              
+            <div class="add-cart mt-3">
+            <button type="button" class="btn btn-secondary">
+              Sepete ekle!
+              <i class='bx bxs-cart-add bx-xs'></i></button>
+          </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- ünlü tablolar end -->
+
+    <!-- world cup start -->
+    <div class="row mb-4 justify-content-center">
+        <div class="card-deck">
+            <div class="card">
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <a href="https://www.trendyol.com/hurdygurdy/1994-abd-dunya-kupasi-logosu-baskili-t-shirt-world-cup-p-108512017?boutiqueId=573000&merchantId=205008&filterOverPriceListings=false"><img class="card-img-top" src="https://cdn.dsmcdn.com/ty119/product/media/images/20210525/13/91539687/178008577/1/1_org.jpg" alt="usa94"></a>
+
+              <div class="card-body text-center">
+                <span class="card-title ">USA-94</span>
+                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                <div class="price">0$</div>
+              
+            <div class="add-cart mt-3">
+            <button type="button" class="btn btn-secondary">
+              Sepete ekle!
+              <i class='bx bxs-cart-add bx-xs'></i></button>
+          </div>
+              </div>
+              
+            </div>
+            <div class="card">
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <a href="https://www.trendyol.com/hurdygurdy/1998-fransa-dunya-kupasi-logosu-baskili-t-shirt-p-108513043?boutiqueId=573000&merchantId=205008&filterOverPriceListings=false"><img class="card-img-top" src="https://cdn.dsmcdn.com/ty118/product/media/images/20210525/13/91540679/178009897/1/1_org.jpg" alt="france98"></a>
+              <div class="card-body text-center">
+                <span class="card-title ">FRANCE-98</span>
+                <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+                <div class="price">0$</div>
+              
+            <div class="add-cart mt-3">
+            <button type="button" class="btn btn-secondary">
+              Sepete ekle!
+              <i class='bx bxs-cart-add bx-xs'></i></button>
+          </div>
+              </div>
+              
+            </div>
+            <div class="card">
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <a href="https://www.trendyol.com/hurdygurdy/beyaz-2002-guney-kore-japonya-dunya-kupasi-logosu-baskili-t-shirt-p-108536540?boutiqueId=61&merchantId=205008&filterOverPriceListings=false"><img class="card-img-top" src="https://cdn.dsmcdn.com/ty117/product/media/images/20210525/14/91565839/178044540/1/1_org.jpg" alt="korea-japan2002"></a>
+              <div class="card-body text-center">
+                <span class="card-title ">KOREA&JAPAN-2002</span>
+                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+                <div class="price">0$</div>
+              
+            <div class="add-cart mt-3">
+            <button type="button" class="btn btn-secondary">
+              Sepete ekle!
+              <i class='bx bxs-cart-add bx-xs'></i></button>
+          </div>
+              </div>
+              
+            </div>
+          </div>
+    </div>
+    </div>
 
     
 
-    <article class="world-cup">
-        <h1>DÜNYA KUPASI</h1>
-        <a href="https://www.trendyol.com/hurdygurdy/1994-abd-dunya-kupasi-logosu-baskili-t-shirt-world-cup-p-108512017?boutiqueId=573000&merchantId=205008&filterOverPriceListings=false"><img src="https://cdn.dsmcdn.com/ty119/product/media/images/20210525/13/91539687/178008577/1/1_org.jpg" alt="usa94"></a>
-        <a href="https://www.trendyol.com/hurdygurdy/1998-fransa-dunya-kupasi-logosu-baskili-t-shirt-p-108513043?boutiqueId=573000&merchantId=205008&filterOverPriceListings=false"><img src="https://cdn.dsmcdn.com/ty118/product/media/images/20210525/13/91540679/178009897/1/1_org.jpg" alt="france98"></a>
-
-        <a href="https://www.trendyol.com/hurdygurdy/beyaz-2002-guney-kore-japonya-dunya-kupasi-logosu-baskili-t-shirt-p-108536540?boutiqueId=61&merchantId=205008&filterOverPriceListings=false"><img src="https://cdn.dsmcdn.com/ty117/product/media/images/20210525/14/91565839/178044540/1/1_org.jpg" alt="korea-japan2002"></a>
-
-    </article>
-
-    <article class="unlu-tablolar">
-        <h1>ÜNLÜ TABLOLAR</h1>
-        <a href="https://www.trendyol.com/hurdygurdy/guernica-t-shirt-pablo-picasso-unlu-tablolar-t-shirt-koleksiyonu-p-83253254?boutiqueId=61&merchantId=205008&filterOverPriceListings=false"><img src="https://cdn.dsmcdn.com/ty69/product/media/images/20210214/23/62548426/140308687/1/1_org.jpg" alt="guernica"></a>
-        <a href="https://www.trendyol.com/hurdygurdy/unisex-siyah-american-gothic-tshirt-p-82845758?boutiqueId=573000&merchantId=205008&filterOverPriceListings=false"><img src="https://cdn.dsmcdn.com/ty126/product/media/images/20210609/0/97636937/139787059/1/1_org.jpg" alt="american gothic"></a>
-
-        <a href="https://www.trendyol.com/hurdygurdy/the-kiss-gustav-klimt-opucuk-tablo-baskili-t-shirt-unlu-tablolar-t-shirt-koleksiyonu-p-88282915?boutiqueId=573000&merchantId=205008&filterOverPriceListings=false"><img src="https://cdn.dsmcdn.com/ty78/product/media/images/20210303/2/68104257/147474870/1/1_org.jpg" alt="the kiss"></a>
-
-    </article>
-
-
+    <!-- footer-start -->
+    <div class="card">
+      <div class="card-header">
+        <span>Hurdy&Gurdy
+          <i class='bx bx-registered bx-xs' ></i>
+        </span>
+        
+      </div>
+      <div class="card-body text-white" id="bg-footer">
+        <h5 class="card-title">Daha fazla</h5>
+        <p class="card-text">Diğer ürünlerimize aşağıdaki bağlantıdan ulaşabilirsiniz.</p>
+        <a href="#" class="btn btn-light">Hurdy&Gurdy+</a>
+      </div>
+    </div>
+    <!-- footer-end -->
+  
+  
     
-</section> <br> <hr>
-<!-- Article - End -->
 
-<!-- Footer - Start -->
-<footer>
-    <a href="index.html">
-        Ana Sayfa
-    </a>
-    <span>|</span>
-    <a href="products.html">
-        Ürünlerimiz
-    </a>
-    <span>|</span>
-    <a href="about-us.html">
-        Hakkımızda
-    </a>
-    <span>|</span>
-    <a href="contact.html">
-        İletişim
-    </a>
-</footer>
-<!-- Footer - End -->
-</body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>

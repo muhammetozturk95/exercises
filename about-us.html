@@ -1,80 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
     <title>Hakkımızda | Hurdy&Gurdy</title>
-    <link rel="stylesheet" href="hurdygurdy.css">
+
+    <style>
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;
+         
+      }
+
+
+    header > ul > li {
+      font-size: 20px;
+    }
+
+    .nav {
+      flex-grow: 1;
+      
+    }
+
+    .jumbotron {
+      /* background-color: #FBAB7E;
+      background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); */
+      /* background: rgb(124,135,107);
+background: linear-gradient(100deg, rgba(124,135,107,1) 0%, rgba(255,183,0,1) 86%); */
+
+background: rgb(124,135,107);
+background: linear-gradient(100deg, rgba(124,135,107,1) 24%, rgba(51,167,109,0.7094188017003676) 100%);
+
+}
+
+.card-header > span {
+  display: flex;
+  justify-content: center;
+}
+
+#bg-footer {
+  /* background: rgb(124,135,107);
+background: linear-gradient(100deg, rgba(124,135,107,1) 24%, rgba(51,167,109,0.7094188017003676) 100%); */
+
+/* background: rgb(131,58,180);
+background: linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+ */
+
+background: rgb(131,58,180);
+background: linear-gradient(45deg, rgba(131,58,180,0.7766456924566701) 0%, rgba(253,29,29,0.7122199221485469) 50%, rgba(252,176,69,0.8074580173866421) 76%);
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 90px;
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+}
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Benne&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Navbar - Start -->
-    <header>
+    </style>
+
+  </head>
+  <body>
+    
+    <header class="bg-light">
+      <div class="logo">
+        <img src="/image/logo.png" alt="logo">
+      </div>
+    
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active text-secondary" href="/index.html">
+            <i class='bx bx-home mr-2'></i>Anasayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/collections.html">
+            <i class='bx bx-collection mr-2'></i>Koleksiyonlar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/products.html">
+            <i class='bx bxs-factory mr-2'></i>Ürünler</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/about-us.html">
+            <i class='bx bx-info-circle mr-2'></i>Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/contact.html">
+            <i class='bx bxs-contact mr-2'></i>İletişim</a>
+        </li>
         
-        <nav>
-            <h1>HURDY&GURDY</h1>
-            <a href="index.html">
-                Ana Sayfa
-            </a>
-            <span>|</span>
-            <a href="products.html">
-                Ürünlerimiz
-            </a>
-            <span>|</span>
-            <a href="about-us.html">
-                Hakkımızda
-            </a>
-            <span>|</span>
-            <a href="contact.html">
-                İletişim
-            </a>
-            <br><br>
-        </nav>
+      </ul>
     </header>
-    <hr>
 
-<!-- Navbar - End -->
+    <!-- <div class="jumbotron text-white">
+      <h1 class="display-4">Hurdy&Gurdy</h1>
+      <p class="lead">3 farklı koleksiyonumuzla sizlerle buluşuyoruz.</p>
+      <hr class="my-4">
+      <p>Göz atmak için:</p>
+      <a class="btn btn-light btn-lg" href="#collections-btn" role="button">Koleksiyonlara Git!</a>
+    </div> -->
 
-<!-- Article - Start -->
-<section>
-       <article class="about-us">
-           <h1>Hurdy&Gurdy Hakkında</h1>
-           <p>Murat Öztürk tarafından 2020 yılında kuruldu. Marka adını Zodiac filminin müziklerinden olan Hurdy Gurdy Man'dan almaktadır. Dinlemek isteyenler için:
 
-           </p> <br>
+<article>
+    <div class="card" style="width: 28rem;">
+        <img src="/image/logo-about.png" class="card-img-top" alt="logo-about">
+        <div class="card-body">
+          <h5 class="card-title">Hakkımızda</h5>
+          <p class="card-text">Murat Öztürk tarafından 2020 yılında kuruldu. Marka adını Zodiac filminin müziklerinden olan Hurdy Gurdy Man'dan almaktadır.</p>
+          <a href="https://www.youtube.com/watch?v=CHxfOZH8cew" target="_blank" class="btn btn-primary">Şarkıyı bi dinleyeyim.</a>
+        </div>
+      </div>
+    </article>
 
-           <iframe width="600" height="337" src="https://www.youtube.com/embed/1oP8USqQIoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
-           
-       </article>
-</section> <br> <hr>
-<!-- Article - End -->
+    <!-- footer-start -->
+    <div class="card footer">
+      <div class="card-header">
+        <span>Hurdy&Gurdy
+          <i class='bx bx-registered bx-xs' ></i>
+        </span>
+        
+      </div>
+      <div class="card-body text-white" id="bg-footer">
+        <h5 class="card-title">Daha fazla</h5>
+        <p class="card-text">Diğer ürünlerimize aşağıdaki bağlantıdan ulaşabilirsiniz.</p>
+        <a href="#" class="btn btn-light">Hurdy&Gurdy+</a>
+      </div>
+    </div>
+    <!-- footer-end -->
+  
+  
+    
 
-<!-- Footer - Start -->
-<footer>
-    <a href="index.html">
-        Ana Sayfa
-    </a>
-    <span>|</span>
-    <a href="products.html">
-        Ürünlerimiz
-    </a>
-    <span>|</span>
-    <a href="about-us.html">
-        Hakkımızda
-    </a>
-    <span>|</span>
-    <a href="contact.html">
-        İletişim
-    </a>
-</footer>
-<!-- Footer - End -->
-</body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>

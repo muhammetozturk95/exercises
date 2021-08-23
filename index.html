@@ -1,137 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
     <title>Ana Sayfa | Hurdy&Gurdy</title>
-    <link rel="stylesheet" href="hurdygurdy.css">
+
+    <style>
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;
+         
+      }
+
+
+    header > ul > li {
+      font-size: 20px;
+    }
+
+    .nav {
+      flex-grow: 1;
+      
+    }
+
+    .jumbotron {
+      /* background-color: #FBAB7E;
+      background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); */
+      /* background: rgb(124,135,107);
+background: linear-gradient(100deg, rgba(124,135,107,1) 0%, rgba(255,183,0,1) 86%); */
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+}
+
+.jumbotron .btn {
+   display: block;
+  margin-block-start: 100px;
+  margin: 10px 600px 0px 600px;
+ 
+}
+
+
+
+.card-header > span {
+  display: flex;
+  justify-content: center;
+}
+
+#bg-footer {
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+  
+    </style>
 
-<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Benne&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
     
-</head>
-<body>
+    <header class="bg-light">
+      <div class="logo">
+        <img src="/image/logo.png" alt="logo">
+      </div>
     
-    <!-- Navbar - Start -->
-        <header>
-            
-            <nav>
-                <h1>HURDY&GURDY</h1>
-                <a href="index.html">
-                    Ana Sayfa
-                </a>
-                <span>|</span>
-                <a href="products.html">
-                    Ürünlerimiz
-                </a>
-                <span>|</span>
-                <a href="about-us.html">
-                    Hakkımızda
-                </a>
-                <span>|</span>
-                <a href="contact.html">
-                    İletişim
-                </a>
-                <br><br>
-            </nav>
-        </header>
-        <hr>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active text-secondary" href="/index.html">
+            <i class='bx bx-home mr-2'></i>Anasayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/collections.html">
+            <i class='bx bx-collection mr-2'></i>Koleksiyonlar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/products.html">
+            <i class='bx bxs-factory mr-2'></i>Ürünler</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/about-us.html">
+            <i class='bx bx-info-circle mr-2'></i>Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="/contact.html">
+            <i class='bx bxs-contact mr-2'></i>İletişim</a>
+        </li>
+        
+      </ul>
+    </header>
 
-    <!-- Navbar - End -->
-
-    <!-- Article - Start -->
-    <section>
-        <article id="welcome">
-            <h2>HURDY & GURDY</h2>
-            <p>
-                Merhaba! Hurdy&Gurdy'e hoşgeldiniz. Tasarımını başka bir yerde bulamayacağınız tişörtleri 3 farklı koleksiyonumuzla sizlerle buluşturuyoruz.  <br>
-            </p>
-        </article> <hr>
-
-        <!-- tame impala koleksiyonu -->
-        <div class="collection">
-
-        <article id="tame-impala">
-            <h1>KOLEKSİYONLAR</h1>
-            <h3>1. Tame Impala</h3>
-            
-            <img height="280" width="420" src="https://playtusu.com/wp-content/uploads/2019/12/tameimpala-768x512.png" alt="Kevin Parker">
-
-            <p>Tame Impala, 2007'de Kevin Parker tarafından kurulan Avustralyalı rock müzik grubu. Proje, Parker'ın evinde kendisi yazdığı, seslendirdiği ve kaydettiği şarkılarla başladı. Konserlerde Parker'a Jay Watson (synthesizer, vokal, gitar), Dominic Simper (gitar, synthesizer), Cam Avery (bas gitar, vokal) ve Julien Barbagallo (davul, vokal) eşlik etmektedir. Başlangıçta Modular Recordings ile sözleşme yapan grubun müziği günümüzde Amerika Birleşik Devletleri'nde Interscope Records ve İngiltere'de Fiction Records tarafından yayınlanmaktadır.</p>
-
-            <p>Bir dizi single ve EP'nin ardından Tame Impala, ilk albümü Innerspeaker'ı 2010'da piyasaya çıkardı. Eleştirmenlerin beğenisini kazanan albüm, Avustralya'da altın plak kazandı. Onu 2012'de Lonerism takip etti. Avustralya'da platin plak kazanan albüm, En İyi Alternatif Müzik Albümü dalında bir de Grammy'ye aday gösterildi. Grubun üçüncü albümü Currents, 17 Temmuz 2015'te dinleyiciyle buluştu. Albüm, ABD listelerinde dört numara olurken, Avustralya'da zirveye yerleşti.</p>
-
-            <a href="https://tr.wikipedia.org/wiki/Tame_Impala">Kaynak</a>
-
-        </article> <hr>
-
-        <!-- dünya kupası koleksiyonu -->
-
-        <article id="world-cup">
-            <h3>2. FIFA Dünya Kupası</h3>
-
-            <img height="280" width="500" src="https://i.sozcu.com.tr/wp-content/uploads/2021/03/24/iecrop/2022-dunya-kupasi-shutt_16_9_1616591190-880x495.jpg" alt="fifa world cup">
-
-            <p>
-                FIFA Dünya Kupası, uluslararası alanda futboldan sorumlu en üst düzey yönetim organı olan Uluslararası Futbol Federasyonları Birliği (FIFA) üyesi ülkelerin erkek millî takımlarının katılabildiği uluslararası futbol turnuvası. 1930'daki ilk turnuvadan beri, II. Dünya Savaşı sebebiyle gerçekleştirilemeyen 1942 ve 1946 yılları dışında dört yılda bir düzenlenmektedir.
-            </p>
-
-            <p>
-                Turnuvanın geçerli statüsünde, turnuva öncesindeki üç yıl boyunca süren eleme aşaması vardır. Günümüz itibarıyla FIFA üyesi 211 ülkenin katılabileceği elemeleri geçmeyi başaran takımlar, FIFA Dünya Kupası Finalleri adını taşıyan final aşamasında mücadele eder. Finallerde, o yılın turnuvasına ev sahipliği yapmasından ötürü eleme oynamaksızın direkt olarak katılan ev sahibi ülke veya ülkelerle birlikte toplamda 32 millî takım yer alır. Dörder takımdan oluşan sekiz gruba ayrılan katılımcılar, bu ilk aşamada grubundaki diğer takımlarla birer maç yaptıkları birinci turda yarışır. Grupları ilk iki sırada tamamlayan takımlar, tek maçlı eleme sistemiyle gerçekleştirilen ikinci aşamaya geçer. Final maçını kazanan takım şampiyon olurken üçüncü takımı belirleme amacıyla yarı finalde kaybedenler arasında bir üçüncülük maçı oynanır.
-            </p>
-
-            <p>Günümüze kadar düzenlenmiş olan toplam 21 turnuvada 8 farklı takım şampiyonluğa ulaşmıştır. Her turnuvaya katılmış olan tek takım konumundaki Brezilya, kazandığı beş şampiyonluk ile kupanın en başarılı takımıdır. İtalya ve Almanya dörder; Arjantin, Fransa ve Uruguay ikişer; İngiltere ve İspanya ise birer şampiyonluk kazanmıştır. Son şampiyon, 2018'deki turnuvada şampiyon olan Fransa'dır.
-
-            </p> <br>
-            
-            <a href="https://tr.wikipedia.org/wiki/FIFA_D%C3%BCnya_Kupas%C4%B1">Kaynak</a>
-          
-        </article> <hr>
-
-        <!-- ünlü tablolar koleksiyonu -->
-
-        <article id="unlu-tablolar">
-            <h3>3. Ünlü Tablolar</h3>
-
-            <img height="400" width="331" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg/1200px-Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg" alt="American Gothic">
-
-            <p>
-                Bu koleksiyonu incelerken sanat galerisinde dolaşıyor hissine kapılacaksınız. En ünlü tabloların basılı olduğu tişörtler Hurdy&Gurdy Ünlü Tablolar koleksiyonunda!
-            </p>
-        </article>
+    <div class="jumbotron text-white">
+      <h1 class="display-4 mb-3">Hurdy&Gurdy'e Hoşgeldiniz!</h1>
+      <p class="lead font-weight-bold mb-3">Türkiye'nin en özgün tasarımlara sahip tişörtlerini tedarik eden marka olarak tasarımlarımızı sizlerle paylaşmaktan mutluluk duyuyoruz.</p>
+      <hr class="my-4">
+      <p style="font-size: 30px; font-weight: bold;">Hadi başlayalım!</p>
+      <a class="btn btn-light btn-lg" href="#index-btn" role="button">Genel Bakış</a>
     </div>
 
-    </section>
-    <br><hr>
-    <!-- Article - End -->
+    <div class="container" id="index-btn" style="margin-bottom: 48px; margin-top: 48px;">
+      <div class="row">
+        <div class="card-deck">
+          <div class="card">
+            <img src="/image/tameimpala.png" class="card-img-top" alt="tame-impala">
+            <div class="card-body">
+              <h5 class="card-title">Tame Impala</h5>
+              <p class="card-text">Tame Impala albüm kapak fotoğraflarını üzerinizde taşımak ister misiniz? Currents, Inner Speaker ve daha fazlası bu koleksiyonda!</p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img height="238px" src="/image/starry-night.jpg" class="card-img-top" alt="famous-painting">
+            <div class="card-body">
+              <h5 class="card-title">Ünlü Tablolar</h5>
+              <p class="card-text">Yıldızlı Gece'den Guernica'ya, American Gothic'den The Kiss'e... Dünyaca ünlü tabloları üzerinizde sergilemek isterseniz sizi bu koleksiyona bekliyoruz!</p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img src="/image/world-cup.jpg" class="card-img-top" alt="world-cup">
+            <div class="card-body">
+              <h5 class="card-title">FIFA Dünya Kupası</h5>
+              <p class="card-text">Gezegenin tartışmasız en fantastik organizsayonu olan ve yıllarca gelmesini dört gözle beklediğimiz FIFA Dünya Kupası koleksiyonu sadece Hurdy&Gurdy'de!</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Footer - Start -->
-    <footer>
-        <a href="index.html">
-            Ana Sayfa
-        </a>
-        <span>|</span>
-        <a href="products.html">
-            Ürünlerimiz
-        </a>
-        <span>|</span>
-        <a href="about-us.html">
-            Hakkımızda
-        </a>
-        <span>|</span>
-        <a href="contact.html">
-            İletişim
-        </a>
-    </footer>
-    <!-- Footer - End -->
-
-
+    <!-- footer-start -->
+    <div class="card">
+      <div class="card-header">
+        <span>Hurdy&Gurdy
+          <i class='bx bx-registered bx-xs' ></i>
+        </span>
+        
+      </div>
+      <div class="card-body text-white" id="bg-footer">
+        <h5 class="card-title">Daha fazla</h5>
+        <p class="card-text">Diğer ürünlerimize aşağıdaki bağlantıdan ulaşabilirsiniz.</p>
+        <a href="#" class="btn btn-light">Hurdy&Gurdy+</a>
+      </div>
+    </div>
+    <!-- footer-end -->
+  
+  
     
-</body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
