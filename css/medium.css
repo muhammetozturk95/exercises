@@ -1,0 +1,17 @@
+
+.bg-skyblue {
+    background-color: #C4E2FF;
+    font-family: 'PT Serif', serif;
+}
+ 
+.border-bottom-dark {
+    border-bottom: 1px solid rgb(41, 41, 41);
+}
+
+.brand-fontsize {
+    font-size: xx-large;
+}
+
+.border-add {
+    border-top: 1px solid rgba(230, 230, 230, 1);
+}
