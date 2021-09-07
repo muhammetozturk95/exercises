@@ -48,3 +48,7 @@ Biz de onu soruyoruz işte ne olmuş?
 İçeriğinde çok şey var diye paniğe kapılmayın, sırayla gittiğinizde her şeyin çok seri şekilde geleceğine emin olabilirsiniz.
 
 Hepinize başarılar ve kolay gelsin.
+
+Ödevin yukarıda istenilen düzenlemelerin yapılması sonrasındaki görünümü aşağıdaki gibidir:
+
+![view](https://github.com/muhammetozturk95/linkedinclone/blob/master/figures/Linkedin%20-%20Google%20Chrome%202021-09-07%2015-22-33.gif?raw=true)
