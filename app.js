@@ -1,3 +1,5 @@
-import { getData } from "./my-module.js";
+import getData from "./index.js";
 
-getData(1);
+const result = await getData(1);
+
+console.log(result);
