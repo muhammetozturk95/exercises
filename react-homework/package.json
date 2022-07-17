@@ -1,0 +1,15 @@
+{
+  "name": "react-homework1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my-module.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammet Öztürk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.1"
+  }
+}
